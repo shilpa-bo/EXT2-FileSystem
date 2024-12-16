@@ -1,6 +1,6 @@
 # Hey! I'm Filing Here
 
-In this lab, I  implemented a 1 MiB ext2 file system with 2 directories, 1 regular file, and 1 symbolic link. The file system has 1 KiB sized blocks with space for 128 inodes. We are given the ext2 structures and some initial skeleton code which creates a file called cs111-base.img in the current working directory. From this, we create a valid ext2 filesystem:
+In this lab, I  implemented a 1 MiB ext2 (second extended) file system with 2 directories, 1 regular file, and 1 symbolic link. An ext2 file system is a file system for the Linux kernel. The file system has 1 KiB sized blocks with space for 128 inodes. We are given the ext2 structures and some initial skeleton code which creates a file called cs111-base.img in the current working directory. From this, we create a valid ext2 filesystem:
 <img title="File system created" walt="Alt text" src="./file_system.png" width=550 height=140>
 
 ## Building
